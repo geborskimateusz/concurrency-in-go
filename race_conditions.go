@@ -17,7 +17,7 @@ func FirstRaceCondition() {
 	}()
 
 	if data == 0 {
-		fmt.Printf("The value is %v", data)
+		fmt.Printf("The value is %v \n", data)
 	}
 }
 
@@ -33,6 +33,6 @@ func SecondRaceCondition() {
 
 	time.Sleep(1 * time.Second)
 	if data == 0 {
-		fmt.Printf("The value is %v", data)
+		fmt.Printf("The value is %v \n", data)
 	}
 }
